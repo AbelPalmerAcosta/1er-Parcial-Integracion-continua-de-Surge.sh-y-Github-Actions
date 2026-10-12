@@ -21,6 +21,6 @@ jobs:
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'p1-electiva2.surge.sh'
-          project: './'
+          project: './mi-web-surge'
           login: 'abel8783145@gmail.com'
           token: ${{ secrets.SURGE_TOKEN }}
